@@ -95,7 +95,20 @@ print("2 elevado a " + str(n) + " es " + str(a))
 ## Punto 7
 
 ``` Python
+# función para las tablas de multplicar
+def tablas_multiplicar():
+  #Se define el rango para las tablas
+  for i in range(1, 10):
+    # Se imoprime un separador para las tablas
+    print("Tabla de multiplicar del" + str (i))
+    #Se define el rango de los valors que multiplican a i
+    for j in range(1, 10+1):
+      print(str(i) + " x " + str(j) +" = "+ (str(i * j)))
+    print()  # Línea en blanco para separar las tablas
 
+if __name__ == "__main__":
+  #Utilizamos la función
+  tablas_multiplicar()
 ```
 
 ## Punto 8
